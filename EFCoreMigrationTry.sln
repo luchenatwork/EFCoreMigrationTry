@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCoreMigrationTry.DataAccess", "EFCoreMigrationTry.DataAccess\EFCoreMigrationTry.DataAccess.csproj", "{0D92286A-4C47-4EF5-A5F1-0225F91A46AB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCoreMigrationTry.WebApi", "EFCoreMigrationTry.WebApi\EFCoreMigrationTry.WebApi.csproj", "{C2F0FCE3-56F8-44A1-8779-5226F282D816}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{E49B5DB8-3203-40AA-852C-331FCA47D15B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCoreMigrationTry.DataMigration", "EFCoreMigrationTry.DataMigration\EFCoreMigrationTry.DataMigration.csproj", "{F32FF646-8A2E-4636-87D0-50BCBA8FD0B5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCoreMigrationTry.ConsoleApp", "EFCoreMigrationTry.ConsoleApp\EFCoreMigrationTry.ConsoleApp.csproj", "{04C2C037-6F6C-4EEC-B41F-A5CB91052186}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{BFAEAC1D-D193-4970-896D-E526FC753842}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\add-migration.sh = Scripts\add-migration.sh
+		Scripts\remove-migration.sh = Scripts\remove-migration.sh
+		Scripts\update-database.sh = Scripts\update-database.sh
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D92286A-4C47-4EF5-A5F1-0225F91A46AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D92286A-4C47-4EF5-A5F1-0225F91A46AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D92286A-4C47-4EF5-A5F1-0225F91A46AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D92286A-4C47-4EF5-A5F1-0225F91A46AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2F0FCE3-56F8-44A1-8779-5226F282D816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2F0FCE3-56F8-44A1-8779-5226F282D816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2F0FCE3-56F8-44A1-8779-5226F282D816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2F0FCE3-56F8-44A1-8779-5226F282D816}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E49B5DB8-3203-40AA-852C-331FCA47D15B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E49B5DB8-3203-40AA-852C-331FCA47D15B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E49B5DB8-3203-40AA-852C-331FCA47D15B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E49B5DB8-3203-40AA-852C-331FCA47D15B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F32FF646-8A2E-4636-87D0-50BCBA8FD0B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F32FF646-8A2E-4636-87D0-50BCBA8FD0B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F32FF646-8A2E-4636-87D0-50BCBA8FD0B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F32FF646-8A2E-4636-87D0-50BCBA8FD0B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04C2C037-6F6C-4EEC-B41F-A5CB91052186}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04C2C037-6F6C-4EEC-B41F-A5CB91052186}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04C2C037-6F6C-4EEC-B41F-A5CB91052186}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04C2C037-6F6C-4EEC-B41F-A5CB91052186}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95F11804-BFB5-4CA1-A365-C9FFAF87BA7D}
+	EndGlobalSection
+EndGlobal

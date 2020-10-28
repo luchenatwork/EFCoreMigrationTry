@@ -1,0 +1,13 @@
+version: '3.4'
+
+services:
+  efcoremigrationtry.webapi:
+    image: ${DOCKER_REGISTRY-}efcoremigrationtrywebapi
+    build:
+      context: .
+      dockerfile: EFCoreMigrationTry.WebApi/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      weatherForecastConnectionString: Server=host.docker.internal;Database=EFCoreMigrationTry;User Id=sa;Password=youknow;
+    ports:
+      - "80"
